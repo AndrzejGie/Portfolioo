@@ -2,4 +2,22 @@ body {
     background-color: #19820B;
     color: #291f1a;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+}
+#main-nav {
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    color: #1ac056;
+}
+ul {
+    float: right;
+}
+a:hover {
+    color: #291f1a;
+    text-decoration: none;
 }
