@@ -1,5 +1,5 @@
 body {
-    background-color: #19820B;
+    background-color: rgb(227, 231, 226);
     color: #291f1a;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -64,19 +64,46 @@ a:hover {
     text-align: center;
 }
 
-.ha1 {
+.name {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 5rem;
     color: #ffffff;
 }
 
-.ha2 {
+.profession {
     font-size: 3rem;
     color: #ffffff;
 }
 .sec-txt {
-    color: #09ec5c;
+    color: #0c9e42;
 }
 
 /* ===end header=== */
+
+/* ===start about=== */
+/* .mnie {
+    height: auto;
+    background-color: red;
+} */
+#about {
+    background-color: #f9fcfe;
+}
+section {
+    padding: 80px 80px 100px;
+}
+.morda {
+    max-height: 350px;
+    max-width: 100%;
+    float: left;
+    border: 
+}
+figure {
+    text-align: center;
+    margin: 0;
+    float: left;
+}
+article { 
+    float: left;
+}
+/* ===end about=== */
