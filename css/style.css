@@ -4,38 +4,79 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
+
 /* ===start nav=== */
+nav {
+    z-index: 50;
+}
+
 li {
     display: inline-block;
     padding: 15px 0px 15px 0px;
     margin: auto;
 }
+
 #main-nav {
     font-size: 1.5rem;
     width: 100%;
     position: fixed;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     color: #1ac056;
 }
+
 ul {
     float: right;
     margin-bottom: 0;
 }
+
 a {
+    color: white;
+    font-weight: 700;
     padding: 20px 15px 20px 15px;
 }
+
 /* li:hover {
     background-color: #19820B;
     
 } */
 a:hover {
-    text-decoration: none;  
+    text-decoration: none;
     color: white;
     background-color: #19820B
 }
+
 /* ===end nav=== */
-.ccc {
-    margin-top: 66px;
-    background-color: bisque;
-    color: red;
+/* ===start header=== */
+#main-header {
+    height: 100vh;
+    background: center;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
 }
+
+.main-header-content {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ha1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.ha2 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+.sec-txt {
+    color: #09ec5c;
+}
+
+/* ===end header=== */
