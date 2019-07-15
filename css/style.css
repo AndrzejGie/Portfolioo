@@ -21,7 +21,7 @@ li {
     width: 100%;
     position: fixed;
     /* background-color: #ffffff; */
-    color: #1ac056;
+    color: #ffffff;
 }
 
 ul {
@@ -30,7 +30,7 @@ ul {
 }
 
 a {
-    color: white;
+    color: #e48a23;
     font-weight: 700;
     padding: 20px 15px 20px 15px;
 }
@@ -42,7 +42,7 @@ a {
 a:hover {
     text-decoration: none;
     color: white;
-    background-color: #19820B
+    background-color: #e48a23;
 }
 
 /* ===end nav=== */
@@ -76,7 +76,7 @@ a:hover {
     color: #ffffff;
 }
 .sec-txt {
-    color: #0c9e42;
+    color: #e48a23;
 }
 
 /* ===end header=== */
@@ -86,6 +86,12 @@ a:hover {
     height: auto;
     background-color: red;
 } */
+.headline {
+    font-size: 35px;
+    font-weight: 700;
+    /* margin-top: 60px; */
+    margin-bottom: 35px;
+}
 #about {
     background-color: #f9fcfe;
 }
@@ -96,7 +102,8 @@ section {
     max-height: 350px;
     max-width: 100%;
     float: left;
-    border: 
+    border: 15px solid;
+    border-radius: 100%;
 }
 figure {
     text-align: center;
