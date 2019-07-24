@@ -114,7 +114,7 @@ article {
 /* ===start skills=== */
 .skillsIcons {
     display: inline-flex;
-    text-align: center;
+    /* text-align: center; */
 }
 .picticon {
     padding-left: 25px;
