@@ -20,7 +20,7 @@
             <li><a class="links-inner" href="#about">o mnie</a></li>
             <li><a class="links-inner" href="#skills">umiejętności</a></li>
             <li><a class="links-inner" href="#portfolio">portfolio</a></li>
-            <li><a class="links-inner" href="">kontakt</a></li>
+            <li><a class="links-inner" href="#contact">kontakt</a></li>
         </ul>
     </nav>
     <div class="container-fluid" id="main-header">
@@ -29,12 +29,13 @@
             <p class="h2 profession">Front-end developer</p>
         </div>
     </div>
+
     <div class="container-fluid" id="about">
         <div class="container">
             <p class="h2 text-center headline">O <span class="sec-txt headline">mnie</span></p>
             <section class="row">
                 <figure class="col-lg-4 col-md-6 col-sm-12 portrait"><img class="morda" src="./img/jan-nowak.jpg"
-                        alt="Jan Nowak"><span class="h1 sec-txt">TO JA</span></figure>
+                        alt="Jan Nowak"><p class="h1">To <span class="sec-txt">ja</span></p></figure>
                 <article class="col-lg-8 col-md-12 col-sm-12">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quidem tempore itaque hic
                         impedit
@@ -49,8 +50,8 @@
         </div>
         </section>
     </div>
-    <div class="container text-center" id="skills">
 
+    <div class="container text-center" id="skills">
         <p class="h2 headline">Moje <span class="sec-txt headline">umiejętności</span></p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint cupiditate quae praesentium tempore inventore
             consequatur dignissimos minus assumenda nihil, nostrum facilis illum officia ea ullam quo numquam, rem
@@ -121,16 +122,35 @@
         </section>
     </div>
 
-    <div class="container-fluid" id="contactMain">
-        <section class="container" id="contact">
-            <div class="contact-data">
-                <p class="h2 headline">Józef <span class="sec-txt">Sztacheta</span></p>
-                <div class="row" id="adress">ul. Ulicowa 123,
+    <div class="container-fluid" id="contact">
+        <section class="contactSec" id="contactMain">
+            <div class="container contact-data">
+                <p class="h2 nameSurname">Józef <span class="sec-txt"> Sztacheta</span></p>
+                <div class="adres" id="adress">ul. Ulicowa 123,
                     <br> 12-345 Miasto
-                    <br><br>tel. 123-456-789<br>przyklad@przyklad.pl</div>
+                    <br><br>tel. 123-456-789<br>e-mail: <span class="mailAdress">przyklad@przyklad.pl</span></div>
+                <div class="row contact-social-icons">
+                    <a class="socIcon" href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                    <a class="socIcon" href="https://www.skype.com/pl/"><i class="fab fa-skype"></i></a>
+                    <a class="socIcon" href="https://pl.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    <a class="socIcon" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                </div>
             </div>
-            <div class="contact-form"></div>
+            <div class="container contact-form">
+                <form action="">
+                    <input type="text" class="formField" id="firstname" placeholder="Imię">
+                    <input type="text" class="formField" id="lastname" placeholder="Nazwisko">
+                    <input type="text" class="formField" id="message" placeholder="Treść wiadomości">
+                    <input type="submit" class="sendbtn" id="sendform" value="Wyślij">
+                </form>
+            </div>
         </section>
+    </div>
+
+    <div class="container-fluid">
+        <footer class="ftr">
+            <p class="copyr">Copyright © Józef Sztacheta 2019</p>
+        </footer>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
