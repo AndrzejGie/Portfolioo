@@ -273,7 +273,14 @@ article {
 /* ===end footer=== */
 
 /* ===start RWD=== */
-@media all and (max-width: 1200) {}
+@media all and (max-width: 1200) {
+    .portfolio-item {
+        width: 50%;
+    }
+    .portfolio-item:last-child {
+        width: 100%;
+    }
+}
 @media all and (max-width: 992) {
     .toggle {
         display: block;
@@ -298,10 +305,41 @@ article {
         padding: 20px;
         text-align: right;
     }
+    .main-header-content {
+        padding: 10%;
+    }
+    figure {
+        width: 100%;
+    }
+    img {
+        max-height: inherit;
+    }
+    article {
+        width: 100%;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    .contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .socIcon {
+        margin: 0;
+    }
 }
 @media all and (max-width: 768) {
     section {
         padding: 0 40px 50px;
+    }
+    .h1 {
+        font-size: 3rem;
+    }
+    .h2 {
+        font-size: 1.5rem;
     }
 }
 @media all and (max-width: 576) {
