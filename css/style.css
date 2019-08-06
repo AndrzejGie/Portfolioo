@@ -34,6 +34,12 @@ ul {
     font-weight: 700;
     padding: 20px 15px 20px 15px;
 }
+.toggle {
+    display: none;
+}
+#drop {
+    display: none;
+}
 
 /* li:hover {
     background-color: #19820B;
@@ -267,11 +273,41 @@ article {
 /* ===end footer=== */
 
 /* ===start RWD=== */
-@media all (max-width, 1200)
-@media all (max-width, 992)
-@media all (max-width, 768) {
-    
+@media all and (max-width: 1200) {}
+@media all and (max-width: 992) {
+    .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #e48a23;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    ul {
+        display: none;
+    }
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+    li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
 }
-@media all (max-width, 576)
+@media all and (max-width: 768) {
+    section {
+        padding: 0 40px 50px;
+    }
+}
+@media all and (max-width: 576) {
+    section {
+        padding: 0 10px 30px;
+    }
+}
 
-/* ===end RWD */
+/* ===end RWD===  */
