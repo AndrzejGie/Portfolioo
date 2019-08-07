@@ -273,12 +273,20 @@ article {
 /* ===end footer=== */
 
 /* ===start RWD=== */
-@media all and (max-width: 1200) {
-    .portfolio-item {
-        width: 50%;
+@media all and (max-width: 576) {
+    section {
+        padding: 0 10px 30px;
     }
-    .portfolio-item:last-child {
-        width: 100%;
+}
+@media all and (max-width: 768) {
+    section {
+        padding: 0 40px 50px;
+    }
+    .h1 {
+        font-size: 3rem;
+    }
+    .h2 {
+        font-size: 1.5rem;
     }
 }
 @media all and (max-width: 992) {
@@ -331,21 +339,12 @@ article {
         margin: 0;
     }
 }
-@media all and (max-width: 768) {
-    section {
-        padding: 0 40px 50px;
+@media all and (max-width: 1200) {
+    .portfolio-item {
+        width: 50%;
     }
-    .h1 {
-        font-size: 3rem;
-    }
-    .h2 {
-        font-size: 1.5rem;
+    .portfolio-item:last-child {
+        width: 100%;
     }
 }
-@media all and (max-width: 576) {
-    section {
-        padding: 0 10px 30px;
-    }
-}
-
 /* ===end RWD===  */
